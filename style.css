@@ -1,0 +1,134 @@
+body{
+    background: #e5e5e5;
+}
+
+.container{
+    width: 1500px;
+    height: 400px;
+    margin: 120px auto;
+    background: #e5e5e5;
+    border-radius: 120px;
+    box-shadow: inset -15px -15px 10px white, inset 15px 15px 10px gray;
+}
+
+#box1,#box2,#box3,#box4,#box5,#box6{
+    text-align: center;
+    font-size: 10em;
+    margin: 90px 3px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+    text-shadow: 5px 5px 5px red;
+}
+
+#box1:hover{
+    animation: animate1 2s ease-in-out infinite;
+}
+
+#box2:hover{
+    animation: animate2 2s ease-in-out infinite;
+}
+
+#box3:hover{
+    animation: animate3 2s ease-in-out infinite;
+}
+
+#box4:hover{
+    animation: animate4 2s ease-in-out infinite;
+}
+
+#box5:hover{
+    animation: animate5 2s ease-in-out infinite;
+}
+
+#box6:hover{
+    animation: animate6 2s ease-in-out infinite;
+}
+
+@keyframes animate1{
+    0%{
+
+    }
+
+    50%{
+        color: blue;
+        font-size: 12em;
+        box-shadow: 30px 30px 35px blue;
+    }
+}
+
+@keyframes animate2{
+    0%{
+
+    }
+
+    50%{
+        color: blue;
+        font-size: 12em;
+        box-shadow: 30px 30px 35px blue;
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes animate3{
+    0%{
+
+    }
+
+    50%{
+        color: blue;
+        font-size: 12em;
+        box-shadow: 30px 30px 35px blue;
+    }
+
+    75%{
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes animate4{
+    0%{
+
+    }
+
+    50%{
+        color: blue;
+        font-size: 12em;
+        box-shadow: 30px 30px 35px blue;
+        transform: translate(160px);
+    }
+}
+
+@keyframes animate5{
+    0%{
+
+    }
+
+    50%{
+        color: blue;
+        font-size: 12em;
+        box-shadow: 30px 30px 35px blue;
+        transform: rotatex(360deg);
+    }
+}
+
+@keyframes animate6{
+    0%{
+
+    }
+
+    50%{
+        color: blue;
+        font-size: 12em;
+        box-shadow: 30px 30px 35px blue;
+        transform: rotateX(160deg);
+    }
+}
+
+
+
+#box1{
+    margin-left: 80px;
+}
